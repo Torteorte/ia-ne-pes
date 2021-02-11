@@ -1,0 +1,218 @@
+body { 
+margin: 0;
+padding: 0;
+font-size: 12px;
+font-weight: 700;
+width: 100%;
+font-family: /* "Montserrat", "Helvetica",*/ "Open Sans", "Arial", sans-serif;
+color: rgb(53, 53, 53);
+background-color: rgb(209, 207, 207);
+max-width: 2000px;
+min-width: 1200px;
+}
+
+a {
+color: black;
+text-decoration: none;
+}
+
+p {
+  color: rgb(75, 75, 75);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main {
+display: flex;
+width: 50%;
+background-color: rgb(209, 207, 207);
+margin: 0 auto;
+flex-direction: column;
+}
+
+.origin {
+display: flex;
+flex-direction: row;
+}
+
+.left {
+background-color: rgb(228, 225, 225);
+width: 30%;
+min-width: 20%;
+padding: 20px;
+}
+
+.left h2,
+.left p {
+padding: 20px 20px 0 0;
+text-align: end;
+}
+
+.left h2 {
+padding-bottom: 0;
+}
+
+.left p {
+padding-top: 0;
+}
+
+.right {
+background-color: whitesmoke;
+width: 70%;
+max-width: 70%;
+padding: 20px;
+}
+
+/* Часть заглавная */
+
+img {
+border-radius: 50%;
+width: 70%;
+display: block;
+margin: auto;
+margin-top: 25%;
+filter: grayscale(0.5);
+}
+
+.me-main {
+padding: 60px 20px 20px 20px;
+}
+
+.me-main p {
+margin: 0;
+}
+
+.me-main p:first-child {
+font-size: 35px;
+}
+
+.me-main p:nth-child(2) { 
+font-size: 60px;
+color: goldenrod;
+}
+
+.three {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 10px;
+}
+
+.me-main .three p {
+font-size: 18px;
+color: rgb(129, 128, 128);
+}
+
+.social {
+height: 30px;
+width: 30px;
+display: inline-block;
+vertical-align: middle;
+}
+
+.social-fb {
+background-image: url("work_img/1.svg");
+}
+
+.social-teleg {
+background-image: url("work_img/2.svg");
+background-size: cover;
+}
+
+.social-inst {
+background-image: url("work_img/3.svg");
+background-size: cover;
+}
+
+
+.footer {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+border-top: 2px solid darkgray;
+margin: 20px;
+}
+
+.footer div{
+text-align: center;
+}
+
+
+/* Часть про меня */
+
+.intro .right p{
+padding: 20px;
+}
+
+/* Часть про Опыт работы */
+
+.exp .right ul {
+padding: 10px 20px 20px 20px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.exp .right li {
+width: 35%;
+}
+
+.exp .right li:nth-child(odd) {
+  margin-right: 10px;
+}
+
+li h2 {
+font-size: 16px;
+}
+
+.exp .right li {
+padding: 0 20px 20px 20px;
+position: relative;
+}
+
+.exp span {
+position: absolute;
+left: -10px;
+top: auto;
+color: goldenrod;
+}
+
+/* Часть про Опыт работы */
+
+.skills-all .right .skills {
+padding: 10px 20px 20px 20px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.skills-all .right .section {
+width: 30%;
+font-size: 16px;
+padding: 0 20px 30px 20px;
+margin: 5px;
+}
+
+.skills-all span {
+color: goldenrod;
+}
+
+.skills dd {
+margin-left: 0;
+margin-top: 10px;
+background-color: #8f8c8c;
+}
+
+.skills-level {
+background-color: goldenrod;
+height: 4px;
+}
+
+h1, h2, h3, dt{
+  color: rgb(53, 53, 53);
+
+}
