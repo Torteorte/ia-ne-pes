@@ -90,7 +90,7 @@ font-size: 35px;
 
 .me-main p:nth-child(2) { 
 font-size: 60px;
-color: goldenrod;
+color: coral;
 }
 
 .three {
@@ -178,7 +178,7 @@ position: relative;
 position: absolute;
 left: -10px;
 top: auto;
-color: goldenrod;
+color: coral;
 }
 
 /* Часть про Опыт работы */
@@ -198,7 +198,7 @@ margin: 5px;
 }
 
 .skills-all span {
-color: goldenrod;
+color: coral;
 }
 
 .skills dd {
@@ -208,7 +208,7 @@ background-color: #8f8c8c;
 }
 
 .skills-level {
-background-color: goldenrod;
+background-color: coral;
 height: 4px;
 }
 
