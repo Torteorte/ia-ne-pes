@@ -216,3 +216,41 @@ h1, h2, h3, dt{
   color: rgb(53, 53, 53);
 
 }
+
+@media (max-width: 1200px) {
+  body { width: 100%;
+         max-width: 1200px;
+         min-width: 650px; }
+  .main { width: 75%; }
+}
+
+@media screen and (max-device-width: 650px) {
+  body {  width: 100%;
+          font-size: 26px; }
+  img {width: 100%;} 
+ 
+  .footer {font-size: 30px;
+           border-top: 4px solid darkgray;
+           justify-content: space-around;} 
+  .footer div {width: 40%;}       
+  .main { width: 100%;}
+  .left { width: 20%; }
+  .left h2 { font-size: 32px; 
+             text-align: left;}
+  .left p {text-align: left;}
+  .exp .left {padding-top: 40px;}             
+  .right { width: 80%; }
+  .right h2 { font-size: 30px; }
+  .exp .right li { width: 100%;}
+  .exp .right  h2 { color:coral; }
+  .zero {display:none }
+  dt {font-size: 30px;}
+  .me-main p:first-child { font-size: 40px; }
+  .me-main p:nth-child(2) { font-size: 80px;
+                              color: coral; }
+  .intro .right {padding-left: 20px;}
+  .social {width: 60px;
+           height: 60px;
+           margin-top: 20px;
+           margin-right: 20px;}      
+} 
